@@ -53,7 +53,7 @@ $(document).ready(function() {
   });
 });
 
-// modal
+// modal open/close
 $('.dm-btn-join').click( function(event){
   event.preventDefault();
   $('#dm-overlay').fadeIn(200,
@@ -61,7 +61,6 @@ $('.dm-btn-join').click( function(event){
     $('#dm-modal-1').css('display', 'block').animate({opacity: 1, top: '40px'}, 300);
    });
 });
-
 $('.modal-close, #dm-overlay').click( function(){
   $('.js-modal')
     .animate({opacity: 0, top: '20px'}, 200,
