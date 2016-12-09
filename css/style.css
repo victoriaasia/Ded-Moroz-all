@@ -454,13 +454,17 @@ img {
   .dm-join .dm-btn-join {
     background: url("../img/join-btn.png") no-repeat; }
   .dm-join .dm-members-title {
+    display: block;
+    width: 520px;
+    margin: 0 auto;
     font-size: 40px;
     font-family: "Helvetica";
     color: #000;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1.2;
-    text-align: center; }
+    text-align: center;
+    text-decoration: none; }
   .dm-join .dm-members {
     margin: 35px 55px;
     -webkit-box-pack: justify;
